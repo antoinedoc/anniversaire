@@ -10,7 +10,7 @@
         .title { font-family: 'Dancing Script', cursive; }
     </style>
 </head>
-<body class="min-h-screen flex items-center justify-center relative overflow-hidden bg-[radial-gradient(circle_at_top,_#fff1f2_0%,_#ffe4e6_35%,_#fbcfe8_100%)] px-4 py-6 sm:px-6 lg:px-8 text-rose-900">
+<body class="min-h-screen flex items-center justify-center relative overflow-x-hidden overflow-y-auto bg-[radial-gradient(circle_at_top,_#fff1f2_0%,_#ffe4e6_35%,_#fbcfe8_100%)] px-4 py-8 sm:px-6 lg:px-8 text-rose-900">
 
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
         <div class="absolute left-[-5%] top-[-10%] h-56 w-56 rounded-full bg-pink-200/40 blur-3xl"></div>
@@ -38,16 +38,16 @@
         <p id="error-msg" class="text-red-500 mt-5 sm:mt-6 text-base sm:text-lg hidden">Identifiant incorrect...</p>
     </div>
 
-    <div id="main-content" class="hidden relative z-20 w-full max-w-4xl text-center p-6 sm:p-8 lg:p-12">
+    <div id="main-content" class="hidden relative z-20 w-full max-w-5xl text-center p-6 sm:p-8 lg:p-10">
         <h1 class="title text-5xl sm:text-6xl lg:text-8xl xl:text-[5rem] leading-tight text-rose-600 mb-4 sm:mb-6">Joyeux Anniversaire</h1>
         <h2 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-rose-700">Margaux</h2>
         <p class="mt-6 sm:mt-8 text-lg sm:text-2xl lg:text-3xl text-rose-800">Mon amour, ma vie, mon tout ❤️</p>
         
-        <div class="mt-8 sm:mt-10 lg:mt-16 flex flex-col gap-4 sm:gap-5 lg:gap-6 items-center">
-            <a href="souvenirs.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-rose-600 text-white rounded-full text-lg sm:text-xl hover:bg-rose-700 transition w-full max-w-xs sm:max-w-sm lg:max-w-md shadow-lg shadow-rose-200">Nos Souvenirs</a>
-            <a href="poeme.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition w-full max-w-xs sm:max-w-sm lg:max-w-md shadow-md">Lire mon Poème</a>
-            <a href="raisons.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition w-full max-w-xs sm:max-w-sm lg:max-w-md shadow-md">Pourquoi je t’aime</a>
-            <a href="lettre.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition w-full max-w-xs sm:max-w-sm lg:max-w-md shadow-md">Ma Lettre d’Amour</a>
+        <div class="mt-8 sm:mt-10 lg:mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 lg:gap-6">
+            <a href="souvenirs.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-rose-600 text-white rounded-full text-lg sm:text-xl hover:bg-rose-700 transition shadow-lg shadow-rose-200">Nos Souvenirs</a>
+            <a href="poeme.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition shadow-md">Lire mon Poème</a>
+            <a href="raisons.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition shadow-md">Pourquoi je t’aime</a>
+            <a href="lettre.html" class="px-8 sm:px-10 lg:px-12 py-4 sm:py-5 lg:py-6 bg-white text-rose-600 rounded-full text-lg sm:text-xl hover:bg-rose-100 transition shadow-md">Ma Lettre d’Amour</a>
         </div>
     </div>
 
